@@ -49,16 +49,16 @@ module.exports = {
   service2: {
     api: '/homes/:id/calendar',
     url: 'http://localhost:3002',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
   service3: {
     api: '/homes/:id/reviews',
     url: 'http://localhost:3003',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
   service4: {
     api: '/',
     url: 'http://localhost:3004',
-    bundle: 'app.js',
+    bundle: 'bundle.js',
   },
 };
